@@ -1,10 +1,15 @@
 #!/usr/bin/env python
 #pypi-AgEIcHlwaS5vcmcCJGRmYzgwMmM4LWQzOTYtNDM1MS04Y2E5LTU4OGFmNmMzY2ViYgACKlszLCJhOGQwN2QwMC1iMzQ0LTQ3MmItOTJkMi05NjQzYjAwZWM5YWQiXQAABiBm4TFbWkg8jPpRJX8e3HaOWo5_kJvzK_GX-Z8_S46F6AZ
 from setuptools import setup, find_packages
+from pathlib import Path
+
+# Read the contents of README.md file
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="scholar_citations",
-    version="0.1.0",
+    version="0.1.1",
     description="Google Scholar self-citation analyzer",
     author="Rahul Vishwakarma",
     author_email="rahul_vishwakarma@icloud.com",
