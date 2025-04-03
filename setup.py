@@ -1,5 +1,6 @@
 #!/usr/bin/env python
-#pypi-AgEIcHlwaS5vcmcCJGRmYzgwMmM4LWQzOTYtNDM1MS04Y2E5LTU4OGFmNmMzY2ViYgACKlszLCJhOGQwN2QwMC1iMzQ0LTQ3MmItOTJkMi05NjQzYjAwZWM5YWQiXQAABiBm4TFbWkg8jPpRJX8e3HaOWo5_kJvzK_GX-Z8_S46F6AZ
+#pypi-AgEIcHlwaS5vcmcCJGUwZTYwYzQ1LWI4ZTUtNGNmMi1hZDZjLTcwNmE5ODE5ZTIwNAACKlszLCJhOGQwN2QwMC1iMzQ0LTQ3MmItOTJkMi05NjQzYjAwZWM5YWQiXQAABiAQycVCXPeVYZ-0bL0YMUjnbCwmbSb27_WGPzFmXWXKKw
+ 
 from setuptools import setup, find_packages
 from pathlib import Path
 
@@ -9,8 +10,10 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="scholar_citations",
-    version="0.1.1",
+    version="0.1.3",
     description="Google Scholar self-citation analyzer",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Rahul Vishwakarma",
     author_email="rahul_vishwakarma@icloud.com",
     url="https://github.com/rahvis/scholar_citations",
