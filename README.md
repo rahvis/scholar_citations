@@ -131,6 +131,16 @@ pip install -e .
 ```bash
 pip install pytest
 pytest tests/
+================================================================== test session starts ==================================================================
+platform darwin -- Python 3.9.21, pytest-8.3.4, pluggy-1.5.0
+rootdir: /Users/rahul/Downloads/scholar_citations
+configfile: pyproject.toml
+plugins: cov-6.0.0
+collected 3 items                                                                                                                                       
+
+tests/test_analyzer.py ...                                                                                                                        [100%]
+
+=================================================================== 3 passed in 0.03s ===================================================================
 ```
 
 ## License
