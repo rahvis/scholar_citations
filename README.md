@@ -87,18 +87,25 @@ optional arguments:
 
 ```
 ======= RESULTS =======
-Author: John Smith
-Papers analyzed: 45 of 45
-Total citations: 1250
-Self-citations: 187
-Self-citation percentage: 14.96%
+Author: Rahul Vishwakarma
+Papers analyzed: 103 of 103
+Total citations: 129
+Self-citations: 21
+Self-citation percentage: 16.28%
 
 Self-citation examples (first 5):
-1. Original: Machine Learning Applications in Healthcare
-   Citing: Advances in Healthcare Machine Learning Models
-2. Original: Neural Networks for Natural Language Processing
-   Citing: Deep Learning Approaches to Syntax Parsing
-...and 182 more self-citations
+1. Original: System and method for efficient backup system awar...
+   Citing: System and method for efficient backup system awar...
+2. Original: Risk-Aware and Explainable Framework for Ensuring ...
+   Citing: Uncertainty-Aware Unimodal and Multimodal Learning...
+3. Original: Risk-Aware and Explainable Framework for Ensuring ...
+   Citing: Uncertainty-Aware Hardware Trojan Detection Using ...
+4. Original: Risk-Aware and Explainable Framework for Ensuring ...
+   Citing: Reconfigurable Run-Time Hardware Trojan Mitigation...
+5. Original: Risk-Aware and Explainable Framework for Ensuring ...
+   Citing: Towards Uncertainty-Aware Hardware Trojan Detectio...
+
+... and 16 more self-citations
 ```
 
 ## How It Works
