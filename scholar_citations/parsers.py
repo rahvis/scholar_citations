@@ -37,9 +37,17 @@ def similar_authors(author1, author2, threshold=0.7):
     if author1 == author2:
         return True
     
-    # Check for subset (last name only vs. full name)
+    # Split names into words
     words1 = author1.split()
     words2 = author2.split()
+    
+    # Check if one name is just the last name of the other
+    if len(words1) > 1 and len(words2) == 1:
+        if words1[-1] == words2[0]:  # Last name of author1 matches the single name of author2
+            return True
+    elif len(words2) > 1 and len(words1) == 1:
+        if words2[-1] == words1[0]:  # Last name of author2 matches the single name of author1
+            return True
     
     # Check if last names match
     if words1 and words2 and words1[-1] == words2[-1]:
@@ -48,7 +56,6 @@ def similar_authors(author1, author2, threshold=0.7):
             # Compare first initials
             if words1[0][0] == words2[0][0]:
                 return True
-    
     return False
 
 def has_author_overlap(authors1, authors2):
@@ -62,5 +69,3 @@ def has_author_overlap(authors1, authors2):
                 return True
     
     return False
-
-# Other parsing functions...

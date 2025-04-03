@@ -1,0 +1,2 @@
+[console_scripts]
+scholar-citations = scholar_citations.cli:main

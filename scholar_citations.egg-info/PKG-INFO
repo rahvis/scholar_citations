@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: scholar_citations
+Version: 0.1.0
+Summary: Google Scholar self-citation analyzer
+Home-page: https://github.com/rahvis/scholar_citations
+Author: Rahul Vishwakarma
+Author-email: rahul_vishwakarma@icloud.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: selenium
+Requires-Dist: webdriver-manager
+Requires-Dist: fake-useragent
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
