@@ -2,6 +2,9 @@
 
 A Python tool for analyzing self-citation patterns in Google Scholar profiles.
 
+[![Buy Me A Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&slug=visrah&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/visrah)
+
+
 ## Overview
 
 Scholar Citations is a powerful tool that helps researchers and evaluators analyze self-citation patterns in Google Scholar profiles. Self-citations (when authors cite their own previous work) are a normal part of academic publishing, but excessive self-citation can sometimes skew metrics like h-index and citation counts.
