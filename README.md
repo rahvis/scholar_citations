@@ -18,6 +18,8 @@ doi: https://doi.org/10.1038/d41586-019-02479-7
 ```
 Vaidyanathan, a computer scientist at the Vel Tech R&D Institute of Technology, a privately run institute, is an extreme example: he has received 94% of his citations from himself or his co- authors up to 2017, according to a study in PLoS Biology this month. 
 
+https://github.com/rahvis/scholar_citations/blob/main/notes/vannoorden2019.pdf
+
 ## Installation
 
 ```bash
